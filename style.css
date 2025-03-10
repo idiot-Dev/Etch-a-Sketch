@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 600px;
+    height: auto;
+}
+.rows{
+    display: flex;
+}
+.columns{
+    border: 1px solid #f2f0ee00;
+    width: 20px;
+    height: 20px;
+}
+
+.side{
+    margin: 160px 80px;
+    text-align: center;
+}
+button{
+    border-radius: 20px;
+    border-style: none;
+    background: none;
+    font-size: 24px;
+    padding: 10px;
+}
+button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+input{
+    font-size: 20px;
+}
